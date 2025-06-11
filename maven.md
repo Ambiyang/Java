@@ -41,4 +41,10 @@
    继承 用于指定版本
    parent
 
+
+   资源加载属性值
+   resources|testResources-resources-directory|filtering
+
+   多环境配置
+   profiles-id|properties|activation-activeByDefault
    ```
