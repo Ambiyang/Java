@@ -40,6 +40,5 @@
    
    继承 用于指定版本
    parent
-   ![image](https://github.com/user-attachments/assets/0d54fcc2-9af7-46f4-b070-ed2878a9ad8f)
 
    ```
