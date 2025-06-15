@@ -22,4 +22,18 @@
 10. 接口里的变量都是public static final的
 11. 局部类不能定义修饰符，本来就是局部变量，作用域仅限于方法体或者代码块内
 12. 匿名内部类new IF是生成一个新类及其实例，new类相当于继承该类并生成其实例
-13. 
+13. java要求有可能抛出异常的程序必须处理，否则编译报错。运行异常可以不处理（有默认处理），否则要么try catch要么throw
+14. ```
+    String a = "abc"   指向常量池
+    String b = new String("abc") 指向堆
+    a.equals(b) T
+    a == b F
+    a == b.intern() T intern返回常量池里的字符串地址，没有则添加到常量池里
+    String a = "hello" + "world" 指向常量池
+    b = "hello" 
+    c = "world" 
+    String a = b + c a指向的不是常量池，而是堆，底层是stringbuilder操作hello world，返回了堆中的变量地址
+    ```
+15. 参数传递字符串和数组，字符串无法修改，数组却可以修改元素。本质是看修改了谁的内存。其实就是引用型数据很难通过参数传递的形式来修改其内容。
+16. 不能把字符串当成数组，如str[0],需要用charat
+17. 
