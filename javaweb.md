@@ -6,14 +6,14 @@
 6. 转发不需要虚拟路径。服务器发出的不需要。浏览器需要。获取虚拟路径用getContextPath
 7. ```
    JavaWeb---Maven&MyBatis：https://cyborg2077.github.io/2022/08/11/JavaWeb01/
-  JavaWeb---HTML&CSS：https://cyborg2077.github.io/2022/08/13/JavaWeb02/
-  JavaWeb---JavaScript：https://cyborg2077.github.io/2022/08/14/JavaWeb03/
-  JavaWeb---HTTP&Tomcat&Servlet：https://cyborg2077.github.io/2022/08/16/JavaWeb04/
-  JavaWeb---Request&Response：https://cyborg2077.github.io/2022/08/17/JavaWeb05/
-  JavaWeb---JSP：https://cyborg2077.github.io/2022/08/18/JavaWeb06/
-  JavaWeb---会话技术：https://cyborg2077.github.io/2022/08/20/JavaWeb07/
-  JavaWeb---Filter&Listener&AJAX：https://cyborg2077.github.io/2022/08/21/JavaWeb08/
-  JavaWeb---Vue&Element：https://cyborg2077.github.io/2022/08/23/JavaWeb09/
-  JavaWeb---综合案例：https://cyborg2077.github.io/2022/08/24/JavaWeb10/
-  JDBC和MySQL是看的尚硅谷的课，更多文章可以访问我的博客：https://cyborg2077.github.io/
+   JavaWeb---HTML&CSS：https://cyborg2077.github.io/2022/08/13/JavaWeb02/
+   JavaWeb---JavaScript：https://cyborg2077.github.io/2022/08/14/JavaWeb03/
+   JavaWeb---HTTP&Tomcat&Servlet：https://cyborg2077.github.io/2022/08/16/JavaWeb04/
+   JavaWeb---Request&Response：https://cyborg2077.github.io/2022/08/17/JavaWeb05/
+   JavaWeb---JSP：https://cyborg2077.github.io/2022/08/18/JavaWeb06/
+   JavaWeb---会话技术：https://cyborg2077.github.io/2022/08/20/JavaWeb07/
+   JavaWeb---Filter&Listener&AJAX：https://cyborg2077.github.io/2022/08/21/JavaWeb08/
+   JavaWeb---Vue&Element：https://cyborg2077.github.io/2022/08/23/JavaWeb09/
+   JavaWeb---综合案例：https://cyborg2077.github.io/2022/08/24/JavaWeb10/
+   JDBC和MySQL是看的尚硅谷的课，更多文章可以访问我的博客：https://cyborg2077.github.io/
    ```
