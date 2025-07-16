@@ -9,6 +9,9 @@
 9. @Import必须写在类上，类必须是一个bean
 10. @SpringBootTest在测试类里写上才能拿到bean，否则要自己创建context来拿
 11. 如同一类有多个bean，先找类型，然后找名字，如果找不到名字，@primary，或者@Qualifier，或者required=false
-12. 
+12. Autowired有多个有参构造函数，并且没有无参构造函数时，可以指定默认启动函数
+13. sb的配置文件名字时application.properties，该配置文件不需要用propertysource导入以使value来读取
+14. springboottest默认会吧springbootapplication当作配置类。用springboottest(class=TestOrder.class)吧test类作为启动类，配合@bean加载
+15. 
 
 
