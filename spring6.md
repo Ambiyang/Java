@@ -12,6 +12,7 @@
 12. Autowired有多个有参构造函数，并且没有无参构造函数时，可以指定默认启动函数
 13. sb的配置文件名字时application.properties，该配置文件不需要用propertysource导入以使value来读取
 14. springboottest默认会吧springbootapplication当作配置类。用springboottest(class=TestOrder.class)吧test类作为启动类，配合@bean加载
-15. 
+15. bean初始化顺序@dependson来控制
+16. aop添加依赖，@Aspect类，同时必须是bean所以需要@component.EnableAspectJAutoProxy需要加，sb会自动帮忙加。前提是能扫描到sba
 
 
