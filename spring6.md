@@ -14,5 +14,11 @@
 14. springboottest默认会吧springbootapplication当作配置类。用springboottest(class=TestOrder.class)吧test类作为启动类，配合@bean加载
 15. bean初始化顺序@dependson来控制
 16. aop添加依赖，@Aspect类，同时必须是bean所以需要@component.EnableAspectJAutoProxy需要加，sb会自动帮忙加。前提是能扫描到sba
+17. Spring bean的两种创建方式:BeanFactory, ApplicationContext(加载文件时就会创建对象)
+18. use-default-filters="false"创建自己的filter，比如按照注解来过滤
+19. autowired不需要set方法，根据类型
+20. qualifier根据名字
+21. resource可以根据类型，也可以根据名字@Resource(name="name"),非spring关键字，是java的
+22. 
 
 
