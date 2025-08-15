@@ -19,6 +19,7 @@
 19. autowired不需要set方法，根据类型
 20. qualifier根据名字
 21. resource可以根据类型，也可以根据名字@Resource(name="name"),非spring关键字，是java的
-22. 
+22. 注解配置，1.添加context 2. 开启组件扫描
+23. 
 
 
